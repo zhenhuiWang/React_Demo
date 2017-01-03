@@ -1,0 +1,200 @@
+
+@import "./variables.scss";
+
+body{
+    background-color: $red;
+}
+.FancyBorder-blue{
+    border: 5px solid blue;
+}
+.SplitPane-left{
+    width: 200px;
+    height: 500px;
+    background-color: red;
+    display: inline-block;
+}
+.SplitPane-right{
+    width: 700px;
+    height: 500px;
+    background-color: green;
+    display: inline-block;
+
+}
+.game-board{
+    display: inline-block;
+
+}
+.board-row{
+    display: block;
+    width: 102px;
+    height: 33px;
+
+}
+
+.status{
+    line-height: 50px;
+}
+.square{
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+    color: buttontext;
+}
+.game-info{
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.edit-container{
+    width: 100%;
+    height: 300px;
+}
+.tablist div{
+    width: 100px;
+    height: 50px;
+    background-color: pink;
+    &.active{
+        background-color: red;
+
+    }
+    display: inline-block;
+    cursor: pointer;
+
+}
+.services{
+    background-color: #61a1bc;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px #ccc;
+    width: 400px;
+    padding: 35px 60px;
+    margin: 50px auto;
+    ul li{
+        padding: 20px 30px;
+        background-color: #e35885;
+        margin-bottom: 8px;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+        cursor: pointer;
+        &.active{
+            background-color: #8ec16d;
+        }
+        span{
+            float: right;
+        }
+    }
+}
+.search{
+    height: 700px;
+    .bar{
+        background-color: #5c9bb7;
+        background-image: -webkit-linear-gradient(top, #5c9bb7, #5392ad);
+        background-image: -moz-linear-gradient(top, #5c9bb7, #5392ad);
+        background-image: linear-gradient(top, #5c9bb7, #5392ad);
+        box-shadow: 0 1px 1px #ccc;
+        border-radius: 2px;
+        width: 400px;
+        padding: 14px;
+        margin: 45px auto 20px;
+        position: relative;
+        input{
+            background: #fff no-repeat 13px 13px;
+            border: none;
+            width: 100%;
+            line-height: 19px;
+            padding: 11px 0;
+            border-radius: 2px;
+            box-shadow: 0 2px 8px #c4c4c4 inset;
+            text-align: left;
+            font-size: 14px;
+            font-family: inherit;
+            color: #738289;
+            font-weight: bold;
+            outline: none;
+            text-indent: 40px;
+        }
+    }
+    ul{
+        list-style: none;
+        width: 428px;
+        margin: 0 auto;
+        text-align: left;
+        li{
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+            overflow: hidden;
+            img{
+                width: 60px;
+                height: 60px;
+                float: left;
+                border: none;
+            }
+            p{
+                margin-left: 75px;
+                font-weight: bold;
+                padding-top: 12px;
+                color: #6e7a7f;
+            }
+        }
+    }
+}
+.container{
+    width: 100%;
+    height: 1000px;
+    button{
+        width: 100px;
+        height: 50px;
+        background-color: #5c9bb7;
+        display: inline-block;
+        line-height: 50px;
+        border: 1px solid black;
+        text-align: center;
+        cursor:pointer;
+    }
+    .class-a{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        border: 1px solid black;
+        display: inline-block;
+        text-align: center;
+        line-height: 100px;
+        font-size: 40px;
+    }
+    .class-b{
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        border: 1px solid black;
+        display: inline-block;
+        text-align: center;
+        line-height: 100px;
+        font-size: 40px;
+
+
+
+    }
+    .class-c{
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        border: 1px solid black;
+        display: inline-block;
+        text-align: center;
+        line-height: 100px;
+        font-size: 40px;
+
+
+    }
+    .show-items{
+
+    }
+}
