@@ -24,7 +24,6 @@ const config = {
         inline: true,
         progress: true,
         contentBase:'./dev',
-
     },
     plugins: [
         // new HtmlWebpackPlugin({template: './dev/index.html'})
